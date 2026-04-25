@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Content Cluster Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f7fb;
+      color: #222;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      background: linear-gradient(to right, #0b4f6c, #01baef);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      background: white;
+      color: #0b4f6c;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #eafcff;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #0b4f6c;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #08415c;
+      margin: 15px 0 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .highlight {
+      background: #e8f7ff;
+      border-left: 5px solid #01baef;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #083d56;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>SEO Content Cluster Project</h1>
+      <p>
+        AI-Powered SEO Blog Strategy for a Local Business using Prompt Engineering,
+        content clusters, local SEO, and keyword-focused blog planning.
+      </p>
+      <button class="btn" onclick="showMessage()">View Project</button>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>1. Objective</h2>
+        <p>
+          The purpose of this project is to create a structured prompt workflow
+          that generates SEO-optimized blogs and content clusters for business websites.
+        </p>
+        <ul>
+          <li>Generate SEO blog outlines from H1 to H3</li>
+          <li>Write long-form useful blog content</li>
+          <li>Create pillar and supporting blogs</li>
+          <li>Use local SEO keywords naturally</li>
+          <li>Support leads, trust, and authority</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>2. Business Chosen</h2>
+        <p><strong>Business Type:</strong> Dental Clinic</p>
+        <p><strong>Business Name:</strong> SmileCare Dental Clinic</p>
+        <p><strong>Location:</strong> Bangalore</p>
+        <p>
+          This project is designed as if the content will go live on a real clinic website.
+          The goal is to help the clinic rank higher on Google and attract local patients.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>3. Primary Keyword & Search Intent</h2>
+        <p><strong>Primary Keyword:</strong> Best Dental Clinic in Bangalore</p>
+        <p>
+          <strong>Search Intent:</strong> Users want to find a trusted dental clinic,
+          compare services, understand treatment costs, and choose the right dentist.
+        </p>
+        <div class="highlight">
+          This keyword targets local users who are ready to book or seriously consider treatment.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>4. Pillar Blog Topic</h2>
+        <p>
+          <strong>Title:</strong> Best Dental Clinic in Bangalore – Services, Cost & What to Expect
+        </p>
+        <p>
+          This is the main pillar blog designed to build authority, answer important questions,
+          and connect supporting blogs under one topic cluster.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>5. SEO Prompt Framework</h2>
+        <div class="highlight">
+          <p><strong>Reusable Prompt:</strong></p>
+          <p>
+            You are an SEO content writer. Create a long-form SEO blog for [BUSINESS TYPE] in [CITY].
+            Primary Keyword: [KEYWORD]. Target Audience: [AUDIENCE].
+          </p>
+          <p>
+            Include SEO title, meta description, H1-H3 headings, internal linking suggestions,
+            helpful human-readable content, and a strong business-focused conclusion.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>6. Pillar Blog Outline</h2>
+        <ul>
+          <li>H1: Best Dental Clinic in Bangalore – Services, Cost & What to Expect</li>
+          <li>H2: Why Choosing the Right Dental Clinic Matters</li>
+          <li>H2: Services Offered by SmileCare Dental Clinic</li>
+          <li>H3: Teeth Cleaning</li>
+          <li>H3: Root Canal Treatment</li>
+          <li>H3: Dental Implants</li>
+          <li>H3: Teeth Whitening</li>
+          <li>H2: How Much Does Dental Treatment Cost in Bangalore?</li>
+          <li>H2: Why Patients Choose SmileCare Dental Clinic</li>
+          <li>H2: Frequently Asked Questions</li>
+          <li>H2: Book an Appointment Today</li>
+        </ul>
+      </div>
+
+      <div class="two-column">
+        <div class="card">
+          <h2>7. Supporting Blogs</h2>
+          <ul>
+            <li>Dental Implant Cost in Bangalore</li>
+            <li>Teeth Whitening – Is It Safe?</li>
+            <li>How to Choose the Right Dentist in Bangalore</li>
+            <li>Signs You Need a Root Canal Treatment</li>
+            <li>Best Teeth Cleaning Clinic in Bangalore</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>8. Internal Linking Strategy</h2>
+          <p>
+            The pillar blog links to all supporting blogs.
+            Each supporting blog links back to the main pillar article.
+          </p>
+          <p>
+            This strengthens topical relevance and helps search engines understand
+            the website structure better.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>9. Local SEO Strategy</h2>
+        <p>
+          The city name is naturally included throughout the content to target local search traffic.
+        </p>
+        <ul>
+          <li>Best Dentist in Bangalore</li>
+          <li>Dental Clinic Near Me</li>
+          <li>Root Canal Cost in Bangalore</li>
+          <li>Teeth Whitening Bangalore</li>
+          <li>Affordable Dental Treatment in Bangalore</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>10. GitHub Repository Structure</h2>
+        <div class="highlight">
+<pre>
+seo-content-project/
+├── README.md
+├── prompts/
+│   ├── pillar_prompt.txt
+│   ├── cluster_prompt.txt
+│   └── local_seo_prompt.txt
+├── blogs/
+│   ├── pillar_blog.md
+│   ├── dental_implants.md
+│   ├── teeth_whitening.md
+│   └── root_canal.md
+└── screenshots/
+    └── seo-outline.png
+</pre>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>11. Business Value</h2>
+        <ul>
+          <li>Increase website traffic</li>
+          <li>Improve Google rankings</li>
+          <li>Build authority and trust</li>
+          <li>Generate more leads and appointments</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>12. Conclusion</h2>
+        <p>
+          This project shows how SEO, AI, and Prompt Engineering can be combined
+          to build ranking-focused content systems for real businesses.
+        </p>
+        <p>
+          It can be used as a portfolio project, freelance SEO service,
+          agency deliverable, or client-ready content pack.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created by Mahathi Parisa | SEO Content Cluster Project</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Your SEO Content Cluster Project is ready!");
+    }
+  </script>
+</body>
+</html>
